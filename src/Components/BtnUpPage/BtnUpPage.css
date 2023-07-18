@@ -1,0 +1,31 @@
+
+.btnStart{
+  width: 40px;
+  height: 40px;
+  bottom: 20px;
+  right: 20px;
+  position: fixed;
+  background-color: var(--darkBlue);
+  border-radius: 4px;
+  opacity: 0;
+  border: 2px solid #000;
+  transition: opacity 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 8px 10px #000;
+}
+
+.btnUpShow{
+  opacity: 1;
+}
+.btnUpShow:hover{
+  background-color: var(--green);
+}
+.btnUpShow:active{
+  background-color: var(--purple);
+}
+
+.iconUP{
+  font-size: 40px;
+}

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root{
+  --blue: #3b5ba6;
+  --darkBlue: #1e386b;
+  --gray: #ddd;
+  --red: #cb2c29;
+  --purple: #5e2ca5;
+  --dark: #333;
+  --green: #2c9e2c;
+  --yellow: #e9da38;
+}
+
+
+body{
+  font-family: 'VT323', monospace;
+  background-color: var(--dark);
+}
+
+

@@ -1,0 +1,52 @@
+.NotFoundContainer{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+}
+
+.btnHome{
+ 
+  background-color: var(--gray);
+  color: var(--darkBlue);
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 10px 40px;
+}
+
+.btnHome:hover{
+ color: var(--blue);
+ box-shadow: 0 0 10px #000;
+}
+
+.NotFound{
+  background: var(--gray);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 325px;
+  position: relative;
+  overflow: hidden;
+}
+
+.NotFoundTitle{
+  font-size: 30px;
+  font-weight: bold;
+  color: var(--darkBlue);
+  text-align: center;
+}
+.NotFoundImg{
+  width: 75%;
+  height: 75%;
+  
+}

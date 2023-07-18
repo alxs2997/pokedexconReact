@@ -1,0 +1,50 @@
+.CardPokemon{
+  background: var(--gray);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 325px;
+  position: relative;
+  overflow: hidden;
+}
+.CardPokemon:hover > img,
+.CardPokemon:hover > p{
+  filter: blur(3px) grayscale(1);
+}
+.CardPokemon:hover > button{
+  transform: translateX(0);
+}
+.CardName{
+  font-size: 30px;
+  font-weight: bold;
+  color: var(--darkBlue);
+  text-align: center;
+}
+.CardImage{
+  width: 75%;
+  height: 75%;
+  
+}
+.btnDetails{
+  background: var(--purple);
+  color: var(--gray);
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  transform: translateX(-300px);
+  transition: transform .3s;
+}
+.btnDetails:hover{
+  background: var(--red);
+
+}
+ 
